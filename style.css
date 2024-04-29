@@ -170,27 +170,21 @@ p{
     color: greenyellow;
     margin-top: 50px;
 }
-.botão{
-    background-color: g;
-}
 
-​
-THIMÓTIO EDUARDO ARAUJO JERONIMO
-​
+
 footer{
-height: 200px;
-background-color: #ece4d4;
+height: 300px;
+background-color: black;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: row;
 padding: 10px;
-font-family: "Kanit";
-color:rgb(97, 50, 13);
+justify-content: space-between;
 }
 
 footer figure{
-width:20%;
+width:10%;
 border-radius: 50%;
 }
 
@@ -202,17 +196,17 @@ margin-left: 10%;
 }
 
 
-.footer-informacoes {
-height: 100px;
-width: 20%
+.footer-Informação_geral {
+height: 100%;
+width: 10%
 }
 
-.footer-informacoes h3 {
+.footer-Informação_geral h3 {
 font-size: 25px;
 font-weight: 300;
 }
 
-.footer-informacoes p {
+.footer-Informação_geral p {
 font-size: 16px;
 font-weight:300;
 }
@@ -220,7 +214,7 @@ font-weight:300;
 .footer-localizacao{
 font-size: 16px;
 font-weight:300;
-width: 20%;
+width: 10%;
 }
 
 .footer-localizacao h3{
@@ -231,14 +225,15 @@ font-weight:300;
 .footer-localizacao p{
 font-size: 16px;
 font-weight:300;
-width: 250px;
+width: 10%;
 margin-bottom: 5%;
 }
 .footer-contatos{
-width: 20%;
+width: 10%;
+margin-bottom: 800px;
 }
 
-.footer-contatos h1 {
+.footer-contatos h3 {
 font-size: 25px;
 font-weight:300;
 }
@@ -249,36 +244,21 @@ font-weight:300;
 margin-bottom: 3%;
 }
 
-.footer-social {
-width: 20%;
+.footer-rede {
+width: 10%;
 }
 
-.footer-social h3 {
+.footer-rede h3 {
 font-size: 25px;
 font-weight:300;
 }
 
-.footer-social ul {
-list-style: none;
-}
 
-.footer-social p {
+.footer-rede p {
 font-weight:300;
 margin-bottom: -5%;
 }
-.localizacao h1{
-    font-size: 40px;
+footer h3{
     color: white;
-}
-.rede h1{
-    font-size: 40px;
-    color: white;
-}
-.contatos h1{
-    font-size: 40px;
-    color: white;
-}
-.Informação_geral h1{
-    font-size: 40px;
-    color: white;
+    margin-top: 20%;
 }
